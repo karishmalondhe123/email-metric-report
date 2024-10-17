@@ -38,7 +38,7 @@ pipeline {
                 subject: 'EC2 Metrics Report - Build #${BUILD_NUMBER} Ready',
                 body: '''<p>The EC2 Metrics Report has been successfully generated.</p>
                          <p>Find the report attached to this email.</p>''',
-                to: 'londhekarishma6994@gmail.com', 'londhe.karishma61@gmail.com',
+                to: 'londhekarishma6994@gmail.com, londhe.karishma61@gmail.com',
                 attachmentsPattern: 'reports/*.xlsx', // Attach the generated report
                 mimeType: 'text/html'
                 )
