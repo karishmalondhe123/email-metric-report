@@ -3,7 +3,7 @@ import configparser
 import datetime
 import pandas as pd
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError, BotoCoreError
 
 def get_profiles():
